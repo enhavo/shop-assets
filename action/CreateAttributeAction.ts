@@ -1,11 +1,11 @@
-import AbstractAction from "@enhavo/app/action/model/AbstractAction";
+import { AbstractAction } from "@enhavo/app/action/model/AbstractAction";
 import View from "@enhavo/app/view/View";
 import ModalManager from "@enhavo/app/modal/ModalManager";
 import Router from "@enhavo/core/Router";
 import AjaxFormModal from "@enhavo/app/modal/model/AjaxFormModal";
 import Translator from "@enhavo/core/Translator";
 
-export default class CreateAttributeAction extends AbstractAction
+export class CreateAttributeAction extends AbstractAction
 {
     private readonly view: View;
     private readonly router: Router;
