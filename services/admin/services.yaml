@@ -6,6 +6,6 @@ services:
             - '@enhavo/app/frame/FrameManager'
             - '@enhavo/core/Router'
             - '@enhavo/app/modal/ModalManager'
-            - '@enhavo/core/Translator'
+            - '@enhavo/app/translation/Translator'
         tags:
             - 'enhavo_app.action'
